@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="411.0" prefWidth="644.0" style="-fx-background-image: url('https://img.freepik.com/free-photo/abstract-blur-train-pulling-into-train-station_1232-2972.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button fx:id="ticket" layoutX="466.0" layoutY="355.0" mnemonicParsing="false" onAction="#switchtoverify" text="pay and checkout" />
+      <Text layoutX="124.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: white;" text="Destination" />
+      <Text layoutX="101.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boarding point" />
+      <Text layoutX="123.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="food choice" />
+      <Text layoutX="154.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" style="fx-background-colour: white;" text="Class" />
+      <Button fx:id="first" layoutX="246.0" layoutY="314.0" mnemonicParsing="false" onAction="#choice" text="1st" />
+      <Button layoutX="288.0" layoutY="313.0" mnemonicParsing="false" text="2nd" />
+      <Button layoutX="194.0" layoutY="268.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Veg" />
+      <Button fx:id="nv" layoutX="284.0" layoutY="268.0" mnemonicParsing="false" onAction="#choice" prefHeight="25.0" prefWidth="73.0" text="Non-Veg" />
+      <Button fx:id="theni" layoutX="194.0" layoutY="193.0" mnemonicParsing="false" onAction="#choice" prefHeight="25.0" prefWidth="62.0" text="Theni" />
+      <Button layoutX="274.0" layoutY="193.0" mnemonicParsing="false" text="Kanyakumari" />
+      <Button layoutX="192.0" layoutY="119.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Madurai" />
+      <Button layoutX="275.0" layoutY="119.0" mnemonicParsing="false" onAction="#choice" prefHeight="25.0" prefWidth="79.0" text="Chennai" />
+      <Button layoutX="339.0" layoutY="313.0" mnemonicParsing="false" text="3rd" />
+      <Label layoutX="196.0" layoutY="314.0" prefHeight="25.0" prefWidth="37.0" style="-fx-background-color: white;" />
+      <Label fx:id="food" layoutX="192.0" layoutY="234.0" prefHeight="25.0" prefWidth="318.0" style="-fx-background-color: white;" />
+      <Label layoutX="192.0" layoutY="161.0" prefHeight="25.0" prefWidth="318.0" style="-fx-background-color: white;" />
+      <TextField layoutX="193.0" layoutY="84.0" prefHeight="25.0" prefWidth="318.0" />
+      <TextField layoutX="197.0" layoutY="314.0" prefHeight="25.0" prefWidth="37.0" />
+      <TextField layoutX="192.0" layoutY="234.0" prefHeight="25.0" prefWidth="318.0" />
+      <TextField layoutX="192.0" layoutY="161.0" prefHeight="25.0" prefWidth="318.0" />
+   </children>
+</AnchorPane>
